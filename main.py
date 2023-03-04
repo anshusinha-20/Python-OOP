@@ -1,4 +1,4 @@
-## type checking
+## Type checking
 # """checking the type"""
 # print(type("Hello world!"))
 # print(type(123))
@@ -30,3 +30,17 @@
 
 # if __name__ == "__main__":
 #     main()
+
+#####
+
+## Creating python classes
+# """creating a class name 'MyFristClass' """
+# class MyFirstClass:
+#     pass
+
+
+# a = MyFirstClass()
+# b = MyFirstClass()
+# print(a)
+# print(b)
+# print(a is b)
