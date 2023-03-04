@@ -21,12 +21,12 @@
 # def odd(n: int) -> bool:
 #     return n % 2 != 0
 
-"""function to return a bool value, i.e, to check whether the 'n' is even or odd"""
-def even(n: int) -> bool:
-    return n % 2 == 0
+# """function to return a bool value, i.e, to check whether the 'n' is even or odd"""
+# def even(n: int) -> bool:
+#     return n % 2 == 0
 
-def main():
-    print(even("Hello world!"))
+# def main():
+#     print(even("Hello world!"))
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
