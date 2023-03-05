@@ -66,3 +66,19 @@
 # print(p1.x, p1.y)
 # print(p2.x, p2.y)
 
+#####
+
+## Making it do something
+# """creating a class"""
+# class Point:
+
+#     """function definition to reset the x and y position"""
+#     def reset(self):
+#         self.x = 0
+#         self.y = 0
+
+
+# """creating an object"""
+# p = Point()
+# p.reset()
+# print(p.x, p.y)
