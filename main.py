@@ -82,3 +82,37 @@
 # p = Point()
 # p.reset()
 # print(p.x, p.y)
+
+#####
+
+## Talking to yourself
+# """creating a class"""
+# class Point:
+
+#     """function definition to reset the x and y position"""
+#     def reset(self):
+#         self.x = 0
+#         self.y = 0
+
+
+# """creating an object"""
+# p = Point()
+# """attaching the reset method to the 'p' object using the 'Point' class"""
+# Point.reset(p)
+# print(p.x, p.y)
+
+# """what happens if we forget to inlcude the self argument?"""
+
+# class Point:
+
+#     """function definition to reset the x and y position"""
+#     def reset():
+#         x = 0
+#         y = 0
+
+
+# """creating an object"""
+# p = Point()
+# """attaching the reset method to the 'p' object using the 'Point' class"""
+# p.reset()
+# print(p.x, p.y)
