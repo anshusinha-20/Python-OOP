@@ -72,7 +72,7 @@
 # """creating a class"""
 # class Point:
 
-#     """function definition to reset the x and y position"""
+#     """method to reset the x and y position"""
 #     def reset(self):
 #         self.x = 0
 #         self.y = 0
@@ -89,7 +89,7 @@
 # """creating a class"""
 # class Point:
 
-#     """function definition to reset the x and y position"""
+#     """method to reset the x and y position"""
 #     def reset(self):
 #         self.x = 0
 #         self.y = 0
@@ -105,7 +105,7 @@
 
 # class Point:
 
-#     """function definition to reset the x and y position"""
+#     """method to reset the x and y position"""
 #     def reset():
 #         x = 0
 #         y = 0
@@ -116,3 +116,36 @@
 # """attaching the reset method to the 'p' object using the 'Point' class"""
 # p.reset()
 # print(p.x, p.y)
+
+#####
+
+## More arguments
+
+# """importing math module"""
+# import math
+
+# """creating class"""
+# class Point:
+
+#     """move method"""
+#     def move(self, x: float, y: float) -> None:
+#         self.x = x
+#         self.y = y
+
+#     """reset method"""
+#     def reset(self) -> None:
+#         self.move(0, 0)
+
+#     """calculateDistance method"""
+#     def calculateDistance(self, other: "Point") -> float:
+#         return math.hypot(self.x - other.x, self.y - other.y)
+    
+
+# """creating objects"""
+# p1 = Point()
+# p2 = Point()
+
+# """attaching methods to the objects"""
+# p1.reset()
+# p2.move(5, 0)
+# print(p2.calculateDistance(p1))
