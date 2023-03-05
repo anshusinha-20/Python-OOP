@@ -149,3 +149,34 @@
 # p1.reset()
 # p2.move(5, 0)
 # print(p2.calculateDistance(p1))
+
+#####
+
+## Initializing the object
+# """importing math module"""
+# import math
+
+# """creating a class"""
+# class Point:
+
+#     """creating initialzing method"""
+#     def __init__(self, x: float, y: float) -> None:
+#         self.move(x, y)
+
+#     """creating move method"""
+#     def move(self, x: float, y:float) -> None:
+#         self.x = x
+#         self.y = y
+
+#     """creating reset method"""
+#     def reset(self) -> None:
+#         self.move(0, 0)
+
+#     """creating calculateDistance method"""
+#     def calculateDistance(self, other: "Point") -> float:
+#         return math.hypot(self.x - other.x, self.y - other.y)
+    
+
+# """constructing a point instance"""
+# p = Point(3, 5)
+# print(p.x, p.y)
